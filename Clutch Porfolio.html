@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clutch/_onlyclutch - Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Hi, I’m Clutch/_onlyclutch</h1>
+    <p>Roblox Developer, Owner and Builder. I create interactive systems, hangouts and social spaces using Roblox Studio and Lua.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>My Roblox Projects</h2>
+
+    <div class="projects-grid">
+
+      <!-- Aloha Hangout -->
+      <div class="project-card">
+        <img src="Aloha hangout1.png" alt="Aloha Hangout" class="project-main-image">
+
+        <h3>Aloha Hangout</h3>
+        <p>My first Roblox hangout project. Built as a solo developer and builder.</p>
+        <p><strong>Role:</strong> Solo Developer / Builder</p>
+        <p><strong>Status:</strong> First project / Archived</p>
+
+        <a href="https://www.roblox.com/games/113199422283338/Aloha-Hangout" class="project-link" target="_blank">View Aloha Hangout</a>
+
+        <div class="gallery">
+          <img src="Aloha Hangout.png" onclick="openImage(this.src)">
+          <img src="Aloha Hangout1.png" onclick="openImage(this.src)">
+          <img src="Aloha hangout1.png" onclick="openImage(this.src)">
+          <img src="Aloha HangoutPincnic.png" onclick="openImage(this.src)">
+        </div>
+      </div>
+
+      <!-- Lakeside Hangout -->
+      <div class="project-card">
+        <img src="Lakeside lake.png" alt="Lakeside Hangout" class="project-main-image">
+
+        <h3>Lakeside Hangout</h3>
+        <p>A lakeside-themed Roblox hangout made for social interaction and exploration.</p>
+        <p><strong>Role:</strong> Solo Developer / Owner / Builder</p>
+        <p><strong>Status:</strong> Open, but currently inactive</p>
+
+        <a href="https://www.roblox.com/games/73069558034301/Lakeside-Hangout" class="project-link" target="_blank">View Lakeside Hangout</a>
+
+        <div class="gallery">
+          <img src="Lakeside hangout garden.png" onclick="openImage(this.src)">
+          <img src="Lakeside hangout.png" onclick="openImage(this.src)">
+          <img src="Ohana Stage.png" onclick="openImage(this.src)">
+        </div>
+      </div>
+
+      <!-- Ohana Hangout -->
+      <div class="project-card">
+        <img src="Ohana Hangout Garden.png" alt="Ohana Hangout" class="project-main-image">
+
+        <h3>Ohana Hangout</h3>
+        <p>A public Roblox hangout focused on social spaces and community interaction.</p>
+        <p><strong>Role:</strong> Solo Developer / Owner / Builder</p>
+        <p><strong>Status:</strong> Public</p>
+
+        <a href="https://www.roblox.com/games/116143559683456/Ohana-Hangout" class="project-link" target="_blank">View Ohana Hangout</a>
+
+        <div class="gallery">
+          <img src="Ohana Stage pala.png" onclick="openImage(this.src)">
+          <img src="Ohana Hangout Garden.png" onclick="openImage(this.src)">
+          <img src="Ohana Hangout Garden2.png" onclick="openImage(this.src)">
+          <img src="Ohana wedding.png" onclick="openImage(this.src)">
+        </div>
+      </div>
+
+      <!-- Sinag IX -->
+      <div class="project-card">
+        <img src="Sinag IX Backdesign.png" alt="Sinag IX" class="project-main-image">
+
+        <h3>Sinag IX</h3>
+        <p>A Roblox game project built with detailed environment design, player areas, and immersive visuals.</p>
+        <p><strong>Role:</strong> Developer / Builder</p>
+        <p><strong>Status:</strong> Already Sold / Showcase project</p>
+
+        <div class="gallery">
+          <img src="Sinag IX SideClub.png" onclick="openImage(this.src)">
+          <img src="Sinag IX Poolside.png" onclick="openImage(this.src)">
+          <img src="Sinag IX Floor.png" onclick="openImage(this.src)">
+          <img src="Sinag IX Backdesign.png" onclick="openImage(this.src)">
+          <img src="Sinag IX 2ndFloor.png" onclick="openImage(this.src)">
+          <img src="Sinag IX DanceFloor.png" onclick="openImage(this.src)">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Image Viewer -->
+  <div id="imageModal" class="image-modal" onclick="closeImage()">
+    <span class="close-btn">&times;</span>
+    <img id="modalImage" class="modal-content" onclick="event.stopPropagation()">
+  </div>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Roblox Studio</li>
+      <li>Lua Scripting</li>
+      <li>Game Building</li>
+      <li>UI Design / Basic UI</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Discord: _onlyclutch</p>
+    <p>Roblox Profile: <a href="https://www.roblox.com/users/466355968/profile" target="_blank">Click Here</a></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
